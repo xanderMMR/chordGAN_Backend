@@ -1,0 +1,23 @@
+GENERATION:
+  duration_based: false
+  generation_duration: 30
+  generation_length: 1024
+INPUT:
+  conditional_duration: 22
+  conditional_input_melody: 'Null'
+  exclude_bos_token: true
+  num_conditional_tokens: 50
+  num_empty_tokens_to_ignore: 0
+  num_midi_files: 1
+  time_extension: false
+MODEL:
+  checkpoint_name: checkpoint_300.pt
+  debug: false
+  memory_length: 100
+  model_directory: model/exp_dir/jazzharm1/test
+OUTPUT:
+  output_txt_directory: model/output_uncondition
+SAMPLING:
+  technique: topk
+  temperature: 0.95
+  threshold: 32.0

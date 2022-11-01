@@ -1,0 +1,23 @@
+GENERATION:
+  duration_based: false
+  generation_duration: 30
+  generation_length: 1024
+INPUT:
+  conditional_duration: 22
+  conditional_input_melody: 'Null'
+  exclude_bos_token: true
+  num_conditional_tokens: 50
+  num_empty_tokens_to_ignore: 0
+  num_midi_files: 2
+  time_extension: false
+MODEL:
+  checkpoint_name: checkpoint_300.pt
+  debug: false
+  memory_length: 1036
+  model_directory: C:\Users\xande\OneDrive\Escritorio\2021\2022\2022-02\TP2\Certificacion\pruebas\pruebas\model\exp_dir\jazzharm1\test
+OUTPUT:
+  output_txt_directory: output_uncondition
+SAMPLING:
+  technique: topk
+  temperature: 0.95
+  threshold: 32

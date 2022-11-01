@@ -1,0 +1,21 @@
+flask
+flask_restx
+gunicorn
+sympy
+flask_cors
+pyyaml
+ipdb
+note_seq
+transformers
+tqdm
+protobuf==3.20 
+tensorboardX==2.5.1
+pypianoroll
+nltk
+texttable
+yacs
+librosa
+SoundFile
+--find-links https://download.pytorch.org/whl/torch_stable.html torch===1.11.0+cu113 
+torchvision 
+torchaudio

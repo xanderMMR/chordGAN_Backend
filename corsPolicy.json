@@ -1,0 +1,15 @@
+[
+    {
+      "AllowedHeaders": [
+        "*"
+      ],
+      "AllowedMethods": [
+        "GET",
+        "HEAD"
+      ],
+      "AllowedOrigins": [
+        "*"
+      ],
+      "MaxAgeSeconds": 3000
+    }
+  ]
